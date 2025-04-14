@@ -1,0 +1,308 @@
+{
+  "info": {
+    "_postman_id": "f8a9e5d7-3b2c-4e8f-9a1d-6c5f8d3e4b2a",
+    "name": "Amazon Ads API",
+    "description": "Collection for testing Amazon Advertising API integration",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Authentication",
+      "description": "Endpoints for Amazon Ads API authentication",
+      "item": [
+        {
+          "name": "Get Auth URL",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/amazon/auth/url/",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "auth", "url", ""]
+            },
+            "description": "Get the Amazon Ads authorization URL"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.auth_url) {",
+                  "    pm.environment.set(\"auth_url\", jsonData.auth_url);",
+                  "    console.log(\"Auth URL saved to environment variables\");",
+                  "    console.log(\"Open this URL in a browser to authenticate: \" + jsonData.auth_url);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Exchange Auth Code",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/amazon/auth/exchange/?code={{auth_code}}",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "auth", "exchange", ""],
+              "query": [
+                {
+                  "key": "code",
+                  "value": "{{auth_code}}"
+                }
+              ]
+            },
+            "description": "Exchange the authorization code for access and refresh tokens"
+          },
+          "response": []
+        },
+        {
+          "name": "Refresh Access Token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/amazon/auth/refresh/",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "auth", "refresh", ""]
+            },
+            "description": "Refresh the Amazon Ads API access token"
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Profiles",
+      "description": "Endpoints for managing Amazon Ads profiles",
+      "item": [
+        {
+          "name": "Get Profiles",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/amazon/profiles/",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "profiles", ""]
+            },
+            "description": "Get available Amazon Ads profiles"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (Array.isArray(jsonData) && jsonData.length > 0) {",
+                  "    pm.environment.set(\"profile_id\", jsonData[0].profileId);",
+                  "    console.log(\"First profile ID saved: \" + jsonData[0].profileId);",
+                  "    console.log(\"Available profiles:\");",
+                  "    jsonData.forEach(function(profile) {",
+                  "        console.log(profile.profileId + \" - \" + profile.accountName);",
+                  "    });",
+                  "}"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Reports",
+      "description": "Endpoints for Amazon Ads reporting",
+      "item": [
+        {
+          "name": "Request Campaign Report",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Amazon-Advertising-API-Scope",
+                "value": "{{profile_id}}",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Campaign Performance Report\",\n  \"startDate\": \"{{report_start_date}}\",\n  \"endDate\": \"{{report_end_date}}\",\n  \"configuration\": {\n    \"adProduct\": \"SPONSORED_PRODUCTS\",\n    \"columns\": [\n      \"campaignName\",\n      \"campaignId\",\n      \"impressions\",\n      \"clicks\",\n      \"cost\",\n      \"attributedSales14d\",\n      \"attributedConversions14d\"\n    ],\n    \"reportTypeId\": \"spCampaigns\",\n    \"timeUnit\": \"DAILY\",\n    \"format\": \"CSV\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/amazon/reports/request/",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "reports", "request", ""]
+            },
+            "description": "Request a campaign performance report"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.reportId) {",
+                  "    pm.environment.set(\"report_id\", jsonData.reportId);",
+                  "    console.log(\"Report ID saved: \" + jsonData.reportId);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Request Keywords Report",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json",
+                "type": "text"
+              },
+              {
+                "key": "Amazon-Advertising-API-Scope",
+                "value": "{{profile_id}}",
+                "type": "text"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Keywords Performance Report\",\n  \"startDate\": \"{{report_start_date}}\",\n  \"endDate\": \"{{report_end_date}}\",\n  \"configuration\": {\n    \"adProduct\": \"SPONSORED_PRODUCTS\",\n    \"columns\": [\n      \"campaignName\",\n      \"campaignId\",\n      \"keywordId\",\n      \"keywordText\",\n      \"matchType\",\n      \"impressions\",\n      \"clicks\",\n      \"cost\",\n      \"attributedSales14d\",\n      \"attributedConversions14d\"\n    ],\n    \"reportTypeId\": \"spKeywords\",\n    \"timeUnit\": \"SUMMARY\",\n    \"format\": \"CSV\"\n  }\n}"
+            },
+            "url": {
+              "raw": "{{base_url}}/amazon/reports/request/",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "reports", "request", ""]
+            },
+            "description": "Request a keywords performance report"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "if (jsonData.reportId) {",
+                  "    pm.environment.set(\"report_id\", jsonData.reportId);",
+                  "    console.log(\"Report ID saved: \" + jsonData.reportId);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Check Report Status",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{django_auth_token}}",
+                "type": "text"
+              },
+              {
+                "key": "Amazon-Advertising-API-Scope",
+                "value": "{{profile_id}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{base_url}}/amazon/reports/status/{{report_id}}/",
+              "host": ["{{base_url}}"],
+              "path": ["amazon", "reports", "status", "{{report_id}}", ""]
+            },
+            "description": "Check the status of a requested report"
+          },
+          "response": [],
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "var jsonData = pm.response.json();",
+                  "console.log(\"Report status: \" + jsonData.status);",
+                  "",
+                  "if (jsonData.status === \"COMPLETED\" && jsonData.location) {",
+                  "    pm.environment.set(\"report_download_url\", jsonData.location);",
+                  "    console.log(\"Report download URL saved: \" + jsonData.location);",
+                  "}"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Download Report",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{amazon_access_token}}",
+                "type": "text"
+              }
+            ],
+            "url": {
+              "raw": "{{report_download_url}}",
+              "host": ["{{report_download_url}}"]
+            },
+            "description": "Download the generated report"
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}

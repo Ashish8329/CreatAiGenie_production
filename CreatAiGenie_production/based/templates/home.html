@@ -1,0 +1,100 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django App</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <script defer src="{% static 'scripts.js' %}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Generative App</h1>
+
+        <!-- Tabs Navigation -->
+        <div class="tabs">
+            <button class="tab-link" onclick="openTab(event, 'Login')">Login</button>
+            {% for tab in tabs %}
+                <button class="tab-link" onclick="openTab(event, '{{ tab.id }}')">
+                    {{ tab.title }}
+                </button>
+            {% endfor %}
+        </div>
+
+        <!-- Authentication Tab -->
+        <div id="Login" class="tab-content" style="display: none;">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="login-error" style="color:red;"></p>
+        </div>
+
+        <!-- Summarize Text Tab -->
+        <div id="SummarizeText" class="tab-content">
+            <h2>Summarize Text</h2>
+            <form id="summarize-text-form">
+                <label for="text">Text to Summarize:</label>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter text here..."></textarea>
+                <button type="submit">Summarize</button>
+            </form>
+            <p id="summary-result"></p>
+        </div>
+
+        <!-- Generate Image Tab -->
+        <div id="GenerateImage" class="tab-content">
+            <h2>Generate Image</h2>
+            <form id="generate-image-form">
+                <label for="prompt">Image Description Prompt:</label>
+                <input type="text" name="prompt" id="prompt" placeholder="Enter prompt here...">
+                <button type="submit">Generate Image</button>
+            </form>
+            <img id="generated-image" style="display:none;" alt="Generated Image">
+        </div>
+
+        <!-- Keyword Extraction Tab -->
+        <div id="KeywordExtraction" class="tab-content">
+            <h2>Keyword Extraction</h2>
+            <form id="generate-extract-form">
+                <label for="texts">Enter ad title or copy:</label>
+                <input type="text" name="texts" id="texts" placeholder="Enter ad title or copy..." required>
+                <button type="submit">Extract Keywords</button>
+            </form>
+            <p id="extract_keywords"></p>
+        </div>
+
+        <!-- Upload File Tab -->
+        <div id="UploadFile" class="tab-content">
+            <h2>Upload File</h2>
+            <form id="upload-file-form" enctype="multipart/form-data">
+                <label for="file">Choose a file:</label>
+                <input type="file" name="file" id="file">
+                <button type="submit">Upload and Extract</button>
+            </form>
+            <div id="file-text"></div>
+        </div>
+
+        <!-- Signage Template Tab -->
+        <div id="Signagetemplate" class="tab-content">
+            <h2>Signage Template</h2>
+            <!-- Content will be dynamically populated by JavaScript -->
+        </div>
+
+        <!-- Signage Template by ID Tab -->
+        <div id="SignagetempDetail" class="tab-content">
+            <h2>Signage Template Detail</h2>
+            <form id="signage-detail-form">
+                <label for="signage-id">Enter Signage ID:</label>
+                <input type="number" id="signage-id" name="signage-id" required>
+                <button type="submit">Fetch Signage Template</button>
+            </form>
+            <div id="signage-detail"></div>
+        </div>
+    </div>
+</body>
+</html>

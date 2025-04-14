@@ -1,0 +1,604 @@
+INFO 2025-04-09 12:41:51,328 auth Generated auth URL for user 6
+INFO 2025-04-09 12:46:56,949 auth Generated auth URL for user 6
+DEBUG 2025-04-09 12:55:31,647 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 12:55:33,647 client Response status: 200
+INFO 2025-04-09 12:55:33,648 auth Successfully exchanged auth code for user 6
+DEBUG 2025-04-09 12:56:18,948 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 12:56:19,828 client Response status: 400
+ERROR 2025-04-09 12:56:19,828 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 12:56:19,829 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 12:56:19,829 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:13:55,000 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:13:55,995 client Response status: 400
+ERROR 2025-04-09 13:13:55,996 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:13:55,997 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:13:55,997 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:14:07,695 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:14:09,512 client Response status: 400
+ERROR 2025-04-09 13:14:09,512 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:14:09,513 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:14:09,513 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:14:37,629 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:14:49,039 client Response status: 400
+ERROR 2025-04-09 13:14:49,039 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:14:49,040 client Request error during auth code exchange: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:14:49,040 auth Auth code exchange error: Authentication request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+INFO 2025-04-09 13:57:32,509 auth Generated auth URL for user 6
+DEBUG 2025-04-09 13:58:47,837 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:58:54,764 client Response status: 200
+INFO 2025-04-09 13:58:54,766 auth Successfully exchanged auth code for user 6
+DEBUG 2025-04-09 13:59:17,305 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 13:59:23,181 client Response status: 400
+ERROR 2025-04-09 13:59:23,181 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:59:23,181 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 13:59:23,182 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 14:09:37,510 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 14:09:38,504 client Response status: 400
+ERROR 2025-04-09 14:09:38,504 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 14:09:38,504 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 14:09:38,505 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 14:09:40,777 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 14:09:41,671 client Response status: 400
+ERROR 2025-04-09 14:09:41,671 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 14:09:41,672 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 14:09:41,672 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 14:11:07,604 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-09 14:11:15,219 client Response status: 400
+ERROR 2025-04-09 14:11:15,219 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 14:11:15,219 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-09 14:11:15,219 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+INFO 2025-04-10 04:40:30,634 auth Generated auth URL for user 6
+DEBUG 2025-04-10 04:40:38,058 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 04:40:38,869 client Response status: 400
+ERROR 2025-04-10 04:40:38,869 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 04:40:38,869 client Request error during auth code exchange: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 04:40:38,872 auth Auth code exchange error: Authentication request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 04:42:30,659 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 04:42:31,362 client Response status: 200
+INFO 2025-04-10 04:42:31,363 auth Successfully exchanged auth code for user 6
+DEBUG 2025-04-10 04:42:40,765 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 04:42:41,495 client Response status: 400
+ERROR 2025-04-10 04:42:41,496 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 04:42:41,496 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 04:42:41,496 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 04:44:41,042 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 04:44:41,754 client Response status: 400
+ERROR 2025-04-10 04:44:41,754 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 04:44:41,754 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 04:44:41,755 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+INFO 2025-04-10 07:40:47,055 auth Generated auth URL for user 6
+DEBUG 2025-04-10 07:43:49,988 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:43:51,049 client Response status: 200
+INFO 2025-04-10 07:43:51,049 auth Successfully exchanged auth code for user 6
+DEBUG 2025-04-10 07:45:16,081 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:45:16,995 client Response status: 400
+ERROR 2025-04-10 07:45:16,995 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 07:45:16,996 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 07:45:16,996 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:54:02,578 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:54:05,660 client Response status: 400
+ERROR 2025-04-10 07:54:05,660 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 07:54:05,661 client Request error during token refresh: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 07:54:05,661 auth Token refresh error: Token refresh request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:57:55,812 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:58:01,796 client Response status: 400
+ERROR 2025-04-10 07:58:01,797 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 07:58:01,798 client Request error during auth code exchange: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 07:58:01,798 auth Auth code exchange error: Authentication request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+INFO 2025-04-10 07:58:51,728 auth Generated auth URL for user 6
+DEBUG 2025-04-10 07:59:24,563 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 07:59:30,475 client Response status: 200
+INFO 2025-04-10 07:59:30,477 auth Successfully exchanged auth code for user 6
+ERROR 2025-04-10 07:59:35,969 client No refresh token available
+ERROR 2025-04-10 07:59:35,969 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 07:59:38,559 client No refresh token available
+ERROR 2025-04-10 07:59:38,560 auth Token refresh error: No refresh token available
+INFO 2025-04-10 08:26:22,297 auth Generated auth URL for user 6
+ERROR 2025-04-10 08:27:13,955 auth Unexpected error during auth code exchange: The `request` argument must be an instance of `django.http.HttpRequest`, not `based.amazonapis.modules.client.AmazonAdsAPIClient`.
+ERROR 2025-04-10 08:27:15,531 auth Unexpected error during auth code exchange: The `request` argument must be an instance of `django.http.HttpRequest`, not `based.amazonapis.modules.client.AmazonAdsAPIClient`.
+ERROR 2025-04-10 08:27:16,832 auth Unexpected error during auth code exchange: The `request` argument must be an instance of `django.http.HttpRequest`, not `based.amazonapis.modules.client.AmazonAdsAPIClient`.
+INFO 2025-04-10 09:18:35,480 auth Generated auth URL for user 6
+DEBUG 2025-04-10 09:19:09,452 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:19:10,308 client Response status: 400
+ERROR 2025-04-10 09:19:10,308 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 09:19:10,309 client Request error during auth code exchange: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 09:19:10,310 auth Auth code exchange error: Authentication request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:19:35,531 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:19:36,644 client Response status: 200
+INFO 2025-04-10 09:19:36,645 auth Successfully exchanged auth code for user 6
+ERROR 2025-04-10 09:19:49,219 client No refresh token available
+ERROR 2025-04-10 09:19:49,220 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:50,866 client No refresh token available
+ERROR 2025-04-10 09:19:50,867 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:51,650 client No refresh token available
+ERROR 2025-04-10 09:19:51,650 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:51,999 client No refresh token available
+ERROR 2025-04-10 09:19:52,000 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:52,229 client No refresh token available
+ERROR 2025-04-10 09:19:52,229 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:52,452 client No refresh token available
+ERROR 2025-04-10 09:19:52,453 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:52,631 client No refresh token available
+ERROR 2025-04-10 09:19:52,632 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:52,859 client No refresh token available
+ERROR 2025-04-10 09:19:52,860 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:53,085 client No refresh token available
+ERROR 2025-04-10 09:19:53,086 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:53,313 client No refresh token available
+ERROR 2025-04-10 09:19:53,314 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:53,513 client No refresh token available
+ERROR 2025-04-10 09:19:53,513 auth Token refresh error: No refresh token available
+ERROR 2025-04-10 09:19:53,751 client No refresh token available
+ERROR 2025-04-10 09:19:53,752 auth Token refresh error: No refresh token available
+DEBUG 2025-04-10 09:28:43,054 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:28:44,078 client Response status: 400
+ERROR 2025-04-10 09:28:44,078 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-10 09:28:44,079 client Request error during auth code exchange: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+INFO 2025-04-10 09:32:02,100 auth Generated auth URL for user 6
+DEBUG 2025-04-10 09:32:37,752 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:32:38,886 client Response status: 200
+DEBUG 2025-04-10 09:32:43,355 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:32:44,206 client Response status: 200
+INFO 2025-04-10 09:32:44,207 client Successfully refreshed access token
+ERROR 2025-04-10 09:35:04,276 client No refresh token available
+ERROR 2025-04-10 09:35:04,277 profiles Error retrieving profiles: No refresh token available
+ERROR 2025-04-10 09:35:15,927 client No refresh token available
+ERROR 2025-04-10 09:35:15,927 profiles Error retrieving profiles: No refresh token available
+ERROR 2025-04-10 09:37:57,500 client No refresh token available
+ERROR 2025-04-10 09:37:57,501 profiles Error retrieving profiles: No refresh token available
+ERROR 2025-04-10 09:37:59,688 client No refresh token available
+ERROR 2025-04-10 09:37:59,688 profiles Error retrieving profiles: No refresh token available
+ERROR 2025-04-10 09:38:01,920 client No refresh token available
+ERROR 2025-04-10 09:38:01,920 profiles Error retrieving profiles: No refresh token available
+ERROR 2025-04-10 09:38:17,443 client No refresh token available
+ERROR 2025-04-10 09:38:17,444 profiles Error retrieving profiles: No refresh token available
+DEBUG 2025-04-10 09:40:10,725 client Making GET request to https://advertising-api-eu.amazon.com/v2/profiles
+DEBUG 2025-04-10 09:40:11,655 client Response status: 200
+INFO 2025-04-10 09:40:11,656 profiles Successfully retrieved profiles for user 6
+ERROR 2025-04-10 09:45:19,908 client No refresh token available
+ERROR 2025-04-10 09:45:19,908 reports Error requesting report: No refresh token available
+DEBUG 2025-04-10 09:47:43,513 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-10 09:47:44,256 client Response status: 401
+INFO 2025-04-10 09:47:44,257 client Received 401, attempting to refresh token
+DEBUG 2025-04-10 09:47:44,257 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:47:45,236 client Response status: 200
+INFO 2025-04-10 09:47:45,237 client Successfully refreshed access token
+DEBUG 2025-04-10 09:47:45,238 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-10 09:47:45,853 client Response status: 401
+ERROR 2025-04-10 09:47:45,854 client Request failed: 401 Client Error: Unauthorized for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-10 09:47:45,855 reports Unexpected error requesting report: 401 Client Error: Unauthorized for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-10 09:49:43,768 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINgo1-huxC1G1JvT7CVR_olTpCxd7GwoZgJIZ4ujppgzY8Eorl7k2cKRRemXtUtbFVy8fkJDTtE1YulXTtdNzTJUkq3o9x7CvhJUIhnjy06u1C0_CMjGabwa0EIcq7pBhPqfEQB6MXUqFkGnf62EMR5itOVsN3WF2uAe9PiQZpvfqdVC-Z02owcjzLtZ5WuJiI0XBGr3WdJaVOK8SfseAPrfuifcfPEnnExZ0Jaqp99-3k8ywWHZciHfbaQ5gKW6aMK1g3BQFSrR2LZXOweiJ4aj0LAeWT3vbj_JwnOD5eJzX-fV3Jp7t9_nYj460wd20-y23FBARdy_wXbHItNUkIhfkA2DUUDwgthkRcfPbTxq5qH0Girue9XcmSLTvLjjPsoRuFvemfIVdH8WV2bSRup7EujhcXMN2Ny6YMw2BdGz_ADHsTx_TIbWYguw4iDKKEUVmXzcOT7FXRbqB1rlfdw2', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '{{profile_id}}'}
+DEBUG 2025-04-10 09:49:43,769 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '{{report_start_date}}', 'endDate': '{{report_end_date}}', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+DEBUG 2025-04-10 09:49:43,769 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-10 09:49:44,532 client Response status: 401
+INFO 2025-04-10 09:49:44,533 client Received 401, attempting to refresh token
+DEBUG 2025-04-10 09:49:44,533 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-10 09:49:45,555 client Response status: 200
+INFO 2025-04-10 09:49:45,556 client Successfully refreshed access token
+DEBUG 2025-04-10 09:49:45,557 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-10 09:49:46,199 client Response status: 401
+ERROR 2025-04-10 09:49:46,200 client Request failed: 401 Client Error: Unauthorized for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-10 09:49:46,201 reports Unexpected error requesting report: 401 Client Error: Unauthorized for url: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 07:22:26,392 auth Generated auth URL for user 6
+DEBUG 2025-04-11 04:25:46,713 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 04:25:52,757 client Response status: 200
+DEBUG 2025-04-11 04:26:31,605 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 04:26:32,478 client Response status: 200
+INFO 2025-04-11 04:26:32,479 client Successfully refreshed access token
+DEBUG 2025-04-11 04:26:40,086 client Making GET request to https://advertising-api-eu.amazon.com/v2/profiles
+DEBUG 2025-04-11 04:26:40,819 client Response status: 200
+INFO 2025-04-11 04:26:40,819 profiles Successfully retrieved profiles for user 6
+DEBUG 2025-04-11 04:32:21,042 reports Request headers: {'Authorization': 'Bearer Atza|IwEBILgY-VCVdrTmvZAM2SJgqOzhoEvMNP7jQGBqRgdlkcI2CEpB74G_gAMK2iL-NK87OLHUgOu8IsuWql3kdnulNBcZ_H5d80jmhj8Ucu3alFfQ42vB-wyKLVT5DoFnoMlijupvOo9ro-Fm0WG4mtPAOjxZhIVYN4oGvi5s3IwyGKa2t0XcMOme6WqabQAPm1dhFHastZ9HMYQzfZ7uUtJ0yL8MthliynvBEflrIJH-da56JB37OW8dWS6Drvrxjop9CC2T9zSNp0Lp1r9J9MdjGiqrOKPDhHPylwQ_TZEwkSQeR-f1b1yOlv2Oeps9FVXhh8LzZXkIbAx_0o1QbR0XmUTV1qR9yyObSaMuZ_NyTbds933mpZXxZZyfkRSISjqv3DBBUdGPVhv52ONLN3ARtyCCHim12XsheLzxH6db7Ghuz1IYXCVA1p5-tGl7baQA_NZdjYCp1HRIHCyuIcyZYjOI', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '{{profile_id}}'}
+DEBUG 2025-04-11 04:32:21,042 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '{{report_start_date}}', 'endDate': '{{report_end_date}}', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+DEBUG 2025-04-11 04:32:21,043 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 04:32:21,875 client Response status: 401
+INFO 2025-04-11 04:32:21,875 client Received 401, attempting to refresh token
+DEBUG 2025-04-11 04:32:21,876 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 04:32:22,799 client Response status: 200
+INFO 2025-04-11 04:32:22,801 client Successfully refreshed access token
+DEBUG 2025-04-11 04:32:22,802 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 04:32:23,512 client Response status: 401
+ERROR 2025-04-11 04:32:23,515 client Request failed: 401 Client Error: Unauthorized for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 04:32:23,516 reports Unexpected error requesting report: 401 Client Error: Unauthorized for url: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 08:58:49,087 auth Generated auth URL for user 6
+DEBUG 2025-04-11 09:02:06,993 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:02:08,018 client Response status: 400
+ERROR 2025-04-11 09:02:08,018 client Request failed: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+ERROR 2025-04-11 09:02:08,018 client Request error during auth code exchange: 400 Client Error: Bad Request for url: https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:02:45,337 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:02:46,316 client Response status: 200
+DEBUG 2025-04-11 09:02:52,135 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:02:53,082 client Response status: 200
+INFO 2025-04-11 09:02:53,083 client Successfully refreshed access token
+DEBUG 2025-04-11 09:03:14,881 client Making GET request to https://advertising-api-eu.amazon.com/v2/profiles
+DEBUG 2025-04-11 09:03:15,837 client Response status: 200
+INFO 2025-04-11 09:03:15,838 profiles Successfully retrieved profiles for user 6
+DEBUG 2025-04-11 09:03:36,385 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:03:36,385 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2023-01-01', 'endDate': '2023-01-31', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+DEBUG 2025-04-11 09:03:36,386 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:03:37,055 client Response status: 400
+ERROR 2025-04-11 09:03:37,055 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:03:37,055 reports Unexpected error requesting report: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:10:04,546 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:10:04,546 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:10:04,547 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:10:04,547 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:10:04,547 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:10:05,248 client Response status: 400
+ERROR 2025-04-11 09:10:05,249 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:10:05,249 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:12:51,242 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:12:51,242 reports Request payload: {'reportDate': '{{report_date}}', 'metrics': 'campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d', 'recordType': 'campaigns', 'segment': 'placement', 'timeUnit': 'DAILY', 'format': 'CSV'}
+INFO 2025-04-11 09:12:51,242 reports Making request to: https://advertising-api-eu.amazon.com/v2/reports
+INFO 2025-04-11 09:12:51,242 reports With payload: {"reportDate": "{{report_date}}", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d", "recordType": "campaigns", "segment": "placement", "timeUnit": "DAILY", "format": "CSV"}
+DEBUG 2025-04-11 09:12:51,243 client Making POST request to https://advertising-api-eu.amazon.com/v2/reports
+DEBUG 2025-04-11 09:12:51,874 client Response status: 404
+ERROR 2025-04-11 09:12:51,874 client Request failed: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/reports
+ERROR 2025-04-11 09:12:51,875 reports Request failed without response: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/reports
+DEBUG 2025-04-11 09:13:04,195 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:13:04,195 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'tactic': 'T00020', 'reportType': 'campaigns', 'format': 'CSV', 'metrics': 'campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d'}
+INFO 2025-04-11 09:13:04,195 reports Making request to: https://advertising-api-eu.amazon.com/v2/reports
+INFO 2025-04-11 09:13:04,195 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "tactic": "T00020", "reportType": "campaigns", "format": "CSV", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d"}
+DEBUG 2025-04-11 09:13:04,195 client Making POST request to https://advertising-api-eu.amazon.com/v2/reports
+DEBUG 2025-04-11 09:13:04,916 client Response status: 404
+ERROR 2025-04-11 09:13:04,916 client Request failed: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/reports
+ERROR 2025-04-11 09:13:04,917 reports Request failed without response: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/reports
+DEBUG 2025-04-11 09:13:43,072 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:13:43,072 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:13:43,072 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:13:43,073 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:13:43,073 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:13:43,851 client Response status: 400
+ERROR 2025-04-11 09:13:43,851 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:13:43,851 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:14:28,776 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:14:28,776 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:14:28,776 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:14:28,776 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:14:28,777 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:14:29,534 client Response status: 400
+ERROR 2025-04-11 09:14:29,535 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:14:29,535 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:18:50,447 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:18:50,447 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+DEBUG 2025-04-11 09:18:50,447 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:18:51,423 client Response status: 400
+ERROR 2025-04-11 09:18:51,423 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:18:51,424 reports Unexpected error requesting report: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:19:49,821 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:19:49,821 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:19:49,821 reports Making request to: https://advertising-api-eu.amazon.com/v2/sp/reports
+INFO 2025-04-11 09:19:49,821 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:19:49,821 client Making POST request to https://advertising-api-eu.amazon.com/v2/sp/reports
+DEBUG 2025-04-11 09:19:50,626 client Response status: 404
+ERROR 2025-04-11 09:19:50,626 client Request failed: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/sp/reports
+ERROR 2025-04-11 09:19:50,626 reports Request failed without response: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/sp/reports
+DEBUG 2025-04-11 09:21:16,760 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:21:16,760 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:21:16,761 reports Making request to: https://advertising-api-eu.amazon.com/sp/reports
+INFO 2025-04-11 09:21:16,761 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:21:16,761 client Making POST request to https://advertising-api-eu.amazon.com/sp/reports
+DEBUG 2025-04-11 09:21:17,464 client Response status: 403
+ERROR 2025-04-11 09:21:17,464 client Request failed: 403 Client Error: Forbidden for url: https://advertising-api-eu.amazon.com/sp/reports
+ERROR 2025-04-11 09:21:17,464 reports Request failed without response: 403 Client Error: Forbidden for url: https://advertising-api-eu.amazon.com/sp/reports
+DEBUG 2025-04-11 09:22:50,614 reports Using access token: Atza|IwEBI...iFCKQ
+DEBUG 2025-04-11 09:22:50,615 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:22:50,615 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:22:50,615 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:22:50,615 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:22:50,615 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:22:51,569 client Response status: 400
+ERROR 2025-04-11 09:22:51,570 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:22:51,570 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:22:55,327 reports Using access token: Atza|IwEBI...iFCKQ
+DEBUG 2025-04-11 09:22:55,328 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:22:55,328 reports Request payload: {'reportDate': '20250410', 'metrics': 'campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d', 'recordType': 'campaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}
+INFO 2025-04-11 09:22:55,328 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:22:55,328 reports With payload: {"reportDate": "20250410", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d", "recordType": "campaigns", "timeUnit": "DAILY", "format": "CSV"}
+DEBUG 2025-04-11 09:22:55,328 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:22:56,176 client Response status: 400
+ERROR 2025-04-11 09:22:56,176 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:22:56,176 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:23:02,003 reports Using access token: Atza|IwEBI...iFCKQ
+DEBUG 2025-04-11 09:23:02,004 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:23:02,004 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:23:02,004 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:23:02,004 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:23:02,004 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:23:04,573 client Response status: 400
+ERROR 2025-04-11 09:23:04,573 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:23:04,573 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:24:47,801 reports Using access token: Atza|IwEBI...iFCKQ
+DEBUG 2025-04-11 09:24:47,801 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:24:47,801 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:24:47,801 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:24:47,801 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:24:47,801 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:24:48,668 client Response status: 400
+ERROR 2025-04-11 09:24:48,668 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:24:48,668 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:25:35,889 reports Using access token: Atza|IwEBI...iFCKQ
+DEBUG 2025-04-11 09:25:35,890 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIM-6L9CygwrK7ZVmDMsA2XNkE7uZr53p8tPbN7YgQLCfagibrKs2wDBSZGYc3mAAhxx3pkIaqThXqOCZ9zALCd8WB7mwkcrV-JNG1gkfEDmNf3DRs4RwfjgYZOb-Cpgyyk2-ImX5LXIY3wi1pFZpUBQCuA1rfHLD9eyeLfJARqDG63XK_WZTj6NLhc7Pwuk1BwyB3aDt56DG3mnQQX2Q9NXWQn-qzzHYHmQ_5Pj315Wk4oF9VEoedNRbjfG2I0eoJuzuwzDE_7b9CwMRy2nSOpOG2Q4sG4vyiVMh88t9yY83zxKywXozAtWJ2iR5N-FXVSSbMxbxCDFeOoTHTnLOtalA_ovrNr-a4c7JhLE23eutbMl_AJQHtMUXzJsA2zplEgEvC-FwuLwsQQEmpPfgoNlX9rO9NtpY33o-Gl3kFZlgEjKdQmDekWyX-9f8XF7JyVirrCVU5OZr9jkRe5wb3icmptbFW9m3zNHLndnMmEY7Ev6MMTd_mulN1rPJjkh2bgdzzd6xGPUaD8pdZEZHgjYMjRbtV3JnqQ5fEvRfLiFCKQ', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:25:35,890 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:25:35,890 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:25:35,890 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:25:35,890 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:25:36,569 client Response status: 400
+ERROR 2025-04-11 09:25:36,569 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:25:36,570 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:26:21,688 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:26:22,719 client Response status: 200
+INFO 2025-04-11 09:26:22,720 client Successfully refreshed access token
+DEBUG 2025-04-11 09:26:27,162 client Making GET request to https://advertising-api-eu.amazon.com/v2/profiles
+DEBUG 2025-04-11 09:26:27,837 client Response status: 200
+INFO 2025-04-11 09:26:27,838 profiles Successfully retrieved profiles for user 6
+DEBUG 2025-04-11 09:26:44,069 reports Using access token: Atza|IwEBI...shy0g
+DEBUG 2025-04-11 09:26:44,069 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:26:44,070 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:26:44,070 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:26:44,070 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:26:44,070 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:26:44,677 client Response status: 400
+ERROR 2025-04-11 09:26:44,678 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:26:44,678 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:27:32,906 reports Using access token: Atza|IwEBI...shy0g
+DEBUG 2025-04-11 09:27:32,906 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:27:32,906 reports Request payload: {'name': 'Keywords Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'keywordId', 'keywordText', 'matchType', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spKeywords', 'timeUnit': 'SUMMARY', 'format': 'CSV'}}
+INFO 2025-04-11 09:27:32,907 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:27:32,907 reports With payload: {"name": "Keywords Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "keywordId", "keywordText", "matchType", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spKeywords", "timeUnit": "SUMMARY", "format": "CSV"}}
+DEBUG 2025-04-11 09:27:32,908 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:27:33,587 client Response status: 400
+ERROR 2025-04-11 09:27:33,595 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:27:33,601 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:30:46,387 reports Using access token: Atza|IwEBI...shy0g
+DEBUG 2025-04-11 09:30:46,388 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:30:46,388 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:30:46,388 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:30:46,389 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:30:46,389 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:30:47,193 client Response status: 400
+ERROR 2025-04-11 09:30:47,193 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:30:47,194 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:31:59,784 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:31:59,784 reports Request payload: {'reportDate': '20250410', 'name': 'Campaign Performance Report', 'startDate': '20250101', 'endDate': '20250410', 'tactic': 'T00020', 'reportType': 'campaigns', 'format': 'CSV', 'metrics': 'campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d'}
+INFO 2025-04-11 09:31:59,784 reports Making request to: https://advertising-api-eu.amazon.com/v2/sp/reports
+INFO 2025-04-11 09:31:59,784 reports With payload: {"reportDate": "20250410", "name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "tactic": "T00020", "reportType": "campaigns", "format": "CSV", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d"}
+DEBUG 2025-04-11 09:31:59,785 client Making POST request to https://advertising-api-eu.amazon.com/v2/sp/reports
+DEBUG 2025-04-11 09:32:00,392 client Response status: 404
+ERROR 2025-04-11 09:32:00,393 client Request failed: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/sp/reports
+ERROR 2025-04-11 09:32:00,393 reports Request failed without response: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/sp/reports
+DEBUG 2025-04-11 09:36:34,082 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+DEBUG 2025-04-11 09:36:34,082 reports Request payload: {'name': 'Campaign Performance Report', 'startDate': '2025-01-01', 'endDate': '2025-04-10', 'configuration': {'adProduct': 'SPONSORED_PRODUCTS', 'columns': ['campaignName', 'campaignId', 'impressions', 'clicks', 'cost', 'attributedSales14d', 'attributedConversions14d'], 'reportTypeId': 'spCampaigns', 'timeUnit': 'DAILY', 'format': 'CSV'}}
+INFO 2025-04-11 09:36:34,082 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:36:34,082 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:36:34,082 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:36:34,866 client Response status: 400
+ERROR 2025-04-11 09:36:34,866 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:36:34,866 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:38:02,439 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+INFO 2025-04-11 09:38:02,439 reports Trying payload format #1
+INFO 2025-04-11 09:38:02,439 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:38:02,439 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:38:03,337 client Response status: 400
+ERROR 2025-04-11 09:38:03,338 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+WARNING 2025-04-11 09:38:03,338 reports Format #1 failed: {'format_number': 1, 'status_code': 'No response', 'error': '400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports', 'response_text': 'No response text'}
+INFO 2025-04-11 09:38:03,338 reports Trying payload format #2
+INFO 2025-04-11 09:38:03,339 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:38:03,339 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:38:03,909 client Response status: 400
+ERROR 2025-04-11 09:38:03,909 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+WARNING 2025-04-11 09:38:03,909 reports Format #2 failed: {'format_number': 2, 'status_code': 'No response', 'error': '400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports', 'response_text': 'No response text'}
+INFO 2025-04-11 09:38:03,911 reports Trying payload format #3
+INFO 2025-04-11 09:38:03,911 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d", "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:38:03,912 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:38:04,542 client Response status: 400
+ERROR 2025-04-11 09:38:04,542 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+WARNING 2025-04-11 09:38:04,543 reports Format #3 failed: {'format_number': 3, 'status_code': 'No response', 'error': '400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports', 'response_text': 'No response text'}
+INFO 2025-04-11 09:38:04,544 reports Trying payload format #4
+INFO 2025-04-11 09:38:04,545 reports With payload: {"reportType": "campaigns", "startDate": "20250101", "endDate": "20250410", "format": "CSV", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d"}
+DEBUG 2025-04-11 09:38:04,545 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:38:06,717 client Response status: 400
+ERROR 2025-04-11 09:38:06,717 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+WARNING 2025-04-11 09:38:06,718 reports Format #4 failed: {'format_number': 4, 'status_code': 'No response', 'error': '400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports', 'response_text': 'No response text'}
+ERROR 2025-04-11 09:38:06,719 reports All payload formats failed
+INFO 2025-04-11 09:38:06,719 reports Trying v2 endpoint: https://advertising-api-eu.amazon.com/v2/reports
+INFO 2025-04-11 09:38:06,720 reports With payload: {"reportType": "campaigns", "startDate": "20250101", "endDate": "20250410", "format": "CSV", "metrics": "campaignName,campaignId,impressions,clicks,cost,attributedSales14d,attributedConversions14d"}
+DEBUG 2025-04-11 09:38:06,720 client Making POST request to https://advertising-api-eu.amazon.com/v2/reports
+DEBUG 2025-04-11 09:38:07,225 client Response status: 404
+ERROR 2025-04-11 09:38:07,225 client Request failed: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/reports
+ERROR 2025-04-11 09:38:07,226 reports V2 endpoint also failed: 404 Client Error: Not Found for url: https://advertising-api-eu.amazon.com/v2/reports
+DEBUG 2025-04-11 09:41:50,461 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/vnd.createasyncreportrequest.v3+json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+INFO 2025-04-11 09:41:50,461 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:41:50,461 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d", "date"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:41:50,461 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:41:51,280 client Response status: 400
+ERROR 2025-04-11 09:41:51,281 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:41:51,281 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:42:35,779 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/vnd.createasyncreportrequest.v3+json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+INFO 2025-04-11 09:42:35,779 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:42:35,779 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d", "date"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:42:35,779 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:42:36,371 client Response status: 400
+ERROR 2025-04-11 09:42:36,371 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:42:36,371 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:42:38,236 reports Request headers: {'Authorization': 'Bearer Atza|IwEBINutHySSDfgH_VXfFFgfKOcdEqXqV_4ef7Cf7RzHzgVscVeEg1QaDoTKoz6BAq1Trv1CVOb8z-1SxPom-1VBjFQ9W6cuYELNLkTQN34jWUaZ3an-Q6tuZlEc9hQhKe9xqMiCcAwMjBSGUNKjTF7vhh0MCTcPBjrarEn5idsTiFIkR3oCn7fW_4Uy9yeV7BQFCtAoeMjzZs3cvCRm7hZAc8TwypecUprou5EA15LP9Axxa6BFA3u6-isXZXNJ9HGxwPrb3wRs7b3wWTXJzXYgOQkIKB_VAM08pgdCcZRVzHZsEdD4Td4AcMzmWxHLC4NbyCrjgIl-U_J85eX9vUro4JTfeOP0QZUUn9qhfUdeN7sCEq-Vk0JvcfoSmRnbbjmhhvBVaGtCs0u6yV3vXbWEZdUxZgrzoJSyHfX59km17vaSI1LvoO6Mu2FxswVJjHyz2VCl5QlA2OJ9cNCRxSsDXf6G66i9_DtD4kKiJnqF_9r-6X4rxNYFt_KLV84x60HSecGXJeLLXJDAVvSUnPHrmOwXIxFQ1wGL8VjlcLwV3shy0g', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/vnd.createasyncreportrequest.v3+json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+INFO 2025-04-11 09:42:38,236 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:42:38,236 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d", "date"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:42:38,237 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:42:38,941 client Response status: 400
+ERROR 2025-04-11 09:42:38,942 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:42:38,942 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:45:24,071 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:45:25,126 client Response status: 200
+INFO 2025-04-11 09:45:25,127 client Successfully refreshed access token
+DEBUG 2025-04-11 09:45:30,314 reports Request headers: {'Authorization': 'Bearer Atza|IwEBIHP-dSxYlR7_JDZ8eg6K-6sYzcTtHE94r5z8Mq3dsAyGofnSeNxtu170IaHszX0C_jrSj-lOvApyOZSg9TdUl85Iuwmmk_bVXqzQf8S8TIH84qw2EX9ExbTSpfuzKvm4sl7LpKfDLquflkhipulaY66mxLfvZLWFU3h_fhoThy7aWnnEPklRVCk7vl11vYJKyNLp54GFwemQ33efZUf_7kcl_7fjKB10Z5TK9hDGq8dE7l7iAM1RYe1FkFdAh9LCaZ09eqFcqPJi05llEEfLeKnbAoWsVchnWiu78DBWCxEfIK3d9dTBJTKrus0rmKJNuHVc_gg7akuFBvZ1oNRFcQhBiYn_VvRn2Ekn66bDexRnJwwx1nW40BSPzsK4FXtvr7FLWAgSx2GcNmoM_CHo3PkvBlmy8EeCrpriHwT5e35Hte_feGiUxd3aDSrSsllBGIsUz-p7WNaSP-dHXxoAeTNeCbrvkudO3uTvwu1abNoafnJkPYlgiibCUdKUK_kdc5Z1KdPEEBWH-BwIY9VKZPXRZz7pjh-8fIyRZggOdoKt9w', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Content-Type': 'application/vnd.createasyncreportrequest.v3+json', 'Amazon-Advertising-API-Scope': '2210316621244527'}
+INFO 2025-04-11 09:45:30,314 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:45:30,314 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-03-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d", "date"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+DEBUG 2025-04-11 09:45:30,314 client Making POST request to https://advertising-api-eu.amazon.com/reporting/reports
+DEBUG 2025-04-11 09:45:31,037 client Response status: 400
+ERROR 2025-04-11 09:45:31,038 client Request failed: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+ERROR 2025-04-11 09:45:31,039 reports Request failed without response: 400 Client Error: Bad Request for url: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:54:25,353 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:54:25,353 reports With headers: {'Authorization': 'Bearer Atza|IwEBIHP-dSxYlR7_JDZ8eg6K-6sYzcTtHE94r5z8Mq3dsAyGofnSeNxtu170IaHszX0C_jrSj-lOvApyOZSg9TdUl85Iuwmmk_bVXqzQf8S8TIH84qw2EX9ExbTSpfuzKvm4sl7LpKfDLquflkhipulaY66mxLfvZLWFU3h_fhoThy7aWnnEPklRVCk7vl11vYJKyNLp54GFwemQ33efZUf_7kcl_7fjKB10Z5TK9hDGq8dE7l7iAM1RYe1FkFdAh9LCaZ09eqFcqPJi05llEEfLeKnbAoWsVchnWiu78DBWCxEfIK3d9dTBJTKrus0rmKJNuHVc_gg7akuFBvZ1oNRFcQhBiYn_VvRn2Ekn66bDexRnJwwx1nW40BSPzsK4FXtvr7FLWAgSx2GcNmoM_CHo3PkvBlmy8EeCrpriHwT5e35Hte_feGiUxd3aDSrSsllBGIsUz-p7WNaSP-dHXxoAeTNeCbrvkudO3uTvwu1abNoafnJkPYlgiibCUdKUK_kdc5Z1KdPEEBWH-BwIY9VKZPXRZz7pjh-8fIyRZggOdoKt9w', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Amazon-Advertising-API-Scope': '2210316621244527', 'Content-Type': 'application/json'}
+INFO 2025-04-11 09:54:25,353 reports With payload: {"name": "Campaign Performance Report", "startDate": "20250101", "endDate": "20250410", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+INFO 2025-04-11 09:54:26,134 reports Report request response: 400 {"code":"400","detail":"Required fields are invalid or missing: configuration groupBy, Required fields are invalid or missing: endDate, Required fields are invalid or missing: startDate"}
+ERROR 2025-04-11 09:54:26,135 reports Failed to request report: 400 {"code":"400","detail":"Required fields are invalid or missing: configuration groupBy, Required fields are invalid or missing: endDate, Required fields are invalid or missing: startDate"}
+INFO 2025-04-11 09:55:39,315 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:55:39,315 reports With headers: {'Authorization': 'Bearer Atza|IwEBIHP-dSxYlR7_JDZ8eg6K-6sYzcTtHE94r5z8Mq3dsAyGofnSeNxtu170IaHszX0C_jrSj-lOvApyOZSg9TdUl85Iuwmmk_bVXqzQf8S8TIH84qw2EX9ExbTSpfuzKvm4sl7LpKfDLquflkhipulaY66mxLfvZLWFU3h_fhoThy7aWnnEPklRVCk7vl11vYJKyNLp54GFwemQ33efZUf_7kcl_7fjKB10Z5TK9hDGq8dE7l7iAM1RYe1FkFdAh9LCaZ09eqFcqPJi05llEEfLeKnbAoWsVchnWiu78DBWCxEfIK3d9dTBJTKrus0rmKJNuHVc_gg7akuFBvZ1oNRFcQhBiYn_VvRn2Ekn66bDexRnJwwx1nW40BSPzsK4FXtvr7FLWAgSx2GcNmoM_CHo3PkvBlmy8EeCrpriHwT5e35Hte_feGiUxd3aDSrSsllBGIsUz-p7WNaSP-dHXxoAeTNeCbrvkudO3uTvwu1abNoafnJkPYlgiibCUdKUK_kdc5Z1KdPEEBWH-BwIY9VKZPXRZz7pjh-8fIyRZggOdoKt9w', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Amazon-Advertising-API-Scope': '2210316621244527', 'Content-Type': 'application/json'}
+INFO 2025-04-11 09:55:39,315 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-01", "endDate": "2025-04-10", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+INFO 2025-04-11 09:55:40,057 reports Report request response: 400 {"code":"400","detail":"startDate to endDate range (99 days) must not exceed maximum range (31 days), startDate (2025-01-01) must be equal to or after report type data retention start date (2025-01-06
+ERROR 2025-04-11 09:55:40,058 reports Failed to request report: 400 {"code":"400","detail":"startDate to endDate range (99 days) must not exceed maximum range (31 days), startDate (2025-01-01) must be equal to or after report type data retention start date (2025-01-06), configuration columns includes invalid values: (attributedSales14d, attributedConversions14d). Allowed values: (impressions, clicks, cost, purchases1d, purchases7d, purchases14d, purchases30d, purchasesSameSku1d, purchasesSameSku7d, purchasesSameSku14d, purchasesSameSku30d, unitsSoldClicks1d, unitsSoldClicks7d, unitsSoldClicks14d, unitsSoldClicks30d, sales1d, sales7d, sales14d, sales30d, attributedSalesSameSku1d, attributedSalesSameSku7d, attributedSalesSameSku14d, attributedSalesSameSku30d, unitsSoldSameSku1d, unitsSoldSameSku7d, unitsSoldSameSku14d, unitsSoldSameSku30d, kindleEditionNormalizedPagesRead14d, kindleEditionNormalizedPagesRoyalties14d, qualifiedBorrows, royaltyQualifiedBorrows, addToList, date, startDate, endDate, campaignBiddingStrategy, costPerClick, clickThroughRate, spend, acosClicks14d, roasClicks14d, retailer, campaignName, campaignId, campaignStatus, campaignBudgetAmount, campaignBudgetType, campaignRuleBasedBudgetAmount, campaignApplicableBudgetRuleId, campaignApplicableBudgetRuleName, campaignBudgetCurrencyCode, topOfSearchImpressionShare)"}
+INFO 2025-04-11 09:57:37,815 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:57:37,815 reports With headers: {'Authorization': 'Bearer Atza|IwEBIHP-dSxYlR7_JDZ8eg6K-6sYzcTtHE94r5z8Mq3dsAyGofnSeNxtu170IaHszX0C_jrSj-lOvApyOZSg9TdUl85Iuwmmk_bVXqzQf8S8TIH84qw2EX9ExbTSpfuzKvm4sl7LpKfDLquflkhipulaY66mxLfvZLWFU3h_fhoThy7aWnnEPklRVCk7vl11vYJKyNLp54GFwemQ33efZUf_7kcl_7fjKB10Z5TK9hDGq8dE7l7iAM1RYe1FkFdAh9LCaZ09eqFcqPJi05llEEfLeKnbAoWsVchnWiu78DBWCxEfIK3d9dTBJTKrus0rmKJNuHVc_gg7akuFBvZ1oNRFcQhBiYn_VvRn2Ekn66bDexRnJwwx1nW40BSPzsK4FXtvr7FLWAgSx2GcNmoM_CHo3PkvBlmy8EeCrpriHwT5e35Hte_feGiUxd3aDSrSsllBGIsUz-p7WNaSP-dHXxoAeTNeCbrvkudO3uTvwu1abNoafnJkPYlgiibCUdKUK_kdc5Z1KdPEEBWH-BwIY9VKZPXRZz7pjh-8fIyRZggOdoKt9w', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Amazon-Advertising-API-Scope': '2210316621244527', 'Content-Type': 'application/json'}
+INFO 2025-04-11 09:57:37,816 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-06", "endDate": "2025-02-05", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "sales14d", "purchases14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+INFO 2025-04-11 09:57:38,646 reports Report request response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 09:57:38,646 reports Successfully requested report for profile 2210316621244527
+INFO 2025-04-11 09:58:11,253 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 09:58:11,253 reports With headers: {'Authorization': 'Bearer Atza|IwEBIHP-dSxYlR7_JDZ8eg6K-6sYzcTtHE94r5z8Mq3dsAyGofnSeNxtu170IaHszX0C_jrSj-lOvApyOZSg9TdUl85Iuwmmk_bVXqzQf8S8TIH84qw2EX9ExbTSpfuzKvm4sl7LpKfDLquflkhipulaY66mxLfvZLWFU3h_fhoThy7aWnnEPklRVCk7vl11vYJKyNLp54GFwemQ33efZUf_7kcl_7fjKB10Z5TK9hDGq8dE7l7iAM1RYe1FkFdAh9LCaZ09eqFcqPJi05llEEfLeKnbAoWsVchnWiu78DBWCxEfIK3d9dTBJTKrus0rmKJNuHVc_gg7akuFBvZ1oNRFcQhBiYn_VvRn2Ekn66bDexRnJwwx1nW40BSPzsK4FXtvr7FLWAgSx2GcNmoM_CHo3PkvBlmy8EeCrpriHwT5e35Hte_feGiUxd3aDSrSsllBGIsUz-p7WNaSP-dHXxoAeTNeCbrvkudO3uTvwu1abNoafnJkPYlgiibCUdKUK_kdc5Z1KdPEEBWH-BwIY9VKZPXRZz7pjh-8fIyRZggOdoKt9w', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Amazon-Advertising-API-Scope': '2210316621244527', 'Content-Type': 'application/json'}
+INFO 2025-04-11 09:58:11,254 reports With payload: {"name": "Keywords Performance Report", "startDate": "2025-01-06", "endDate": "2025-02-05", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "sales14d", "purchases14d"], "reportTypeId": "spKeywords", "timeUnit": "SUMMARY", "format": "CSV", "groupBy": ["campaign"]}}
+INFO 2025-04-11 09:58:11,979 reports Report request response: 400 {"code":"400","detail":"configuration invalid groupBy values: (campaign). Allowed values: (adGroup), configuration format is not supported for this report type, configuration columns includes invalid 
+ERROR 2025-04-11 09:58:11,980 reports Failed to request report: 400 {"code":"400","detail":"configuration invalid groupBy values: (campaign). Allowed values: (adGroup), configuration format is not supported for this report type, configuration columns includes invalid values: (campaignName, campaignId). Allowed values: (impressions, clicks, cost, attributedConversions1d, attributedConversions7d, attributedConversions14d, attributedConversions30d, purchases1d, purchases7d, purchases14d, purchases30d, attributedConversions1dSameSKU, attributedConversions7dSameSKU, attributedConversions14dSameSKU, attributedConversions30dSameSKU, purchasesSameSku1d, purchasesSameSku7d, purchasesSameSku14d, purchasesSameSku30d, attributedUnitsOrdered1d, attributedUnitsOrdered7d, attributedUnitsOrdered14d, attributedUnitsOrdered30d, unitsSoldClicks1d, unitsSoldClicks7d, unitsSoldClicks14d, unitsSoldClicks30d, attributedSales1d, attributedSales7d, attributedSales14d, attributedSales30d, sales1d, sales7d, sales14d, sales30d, attributedSales1dSameSKU, attributedSales7dSameSKU, attributedSales14dSameSKU, attributedSales30dSameSKU, attributedSalesSameSku1d, attributedSalesSameSku7d, attributedSalesSameSku14d, attributedSalesSameSku30d, attributedUnitsOrdered1dSameSKU, attributedUnitsOrdered7dSameSKU, attributedUnitsOrdered14dSameSKU, attributedUnitsOrdered30dSameSKU, unitsSoldSameSku1d, unitsSoldSameSku7d, unitsSoldSameSku14d, unitsSoldSameSku30d, attributedKindleEditionNormalizedPagesRead14d, attributedKindleEditionNormalizedPagesRoyalties14d, kindleEditionNormalizedPagesRead14d, kindleEditionNormalizedPagesRoyalties14d, keywordId, keywordText, keyword, matchType, currency, campaignBudgetCurrencyCode, date, startDate, endDate, topOfSearchImpressionShare)"}
+ERROR 2025-04-11 09:58:25,837 client No refresh token available
+ERROR 2025-04-11 09:58:25,837 reports Error checking report status: No refresh token available
+DEBUG 2025-04-11 09:58:36,844 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 09:58:37,827 client Response status: 200
+INFO 2025-04-11 09:58:37,828 client Successfully refreshed access token
+ERROR 2025-04-11 09:58:42,767 client No refresh token available
+ERROR 2025-04-11 09:58:42,768 reports Error checking report status: No refresh token available
+INFO 2025-04-11 10:00:50,117 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:00:50,827 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:00:50,829 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:06:26,052 reports Making keyword report request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 10:06:26,052 reports With payload: {"name": "Keywords Performance Report", "startDate": "2025-01-06", "endDate": "2025-02-05", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["adGroup"], "columns": ["keywordId", "keywordText", "matchType", "impressions", "clicks", "cost", "attributedSales14d", "attributedConversions14d"], "reportTypeId": "spKeywords", "timeUnit": "SUMMARY", "format": "GZIP_JSON"}}
+INFO 2025-04-11 10:06:26,786 reports Keyword report request response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["keywordId","keywordText","matchType","impressions","clicks","cost","attributedSales14d","attributedConversions14d"],"filters":null,"forma
+INFO 2025-04-11 10:06:26,786 reports Successfully requested keyword report for profile 2210316621244527
+INFO 2025-04-11 10:06:35,129 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/ef3d3982-92c2-4e86-b6f8-a28f8d9824bf
+INFO 2025-04-11 10:06:35,793 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["keywordId","keywordText","matchType","impressions","clicks","cost","attributedSales14d","attributedConversions14d"],"filters":null,"forma
+INFO 2025-04-11 10:06:35,793 reports Successfully checked report status for report ef3d3982-92c2-4e86-b6f8-a28f8d9824bf
+INFO 2025-04-11 10:07:21,051 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:07:21,670 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:07:21,671 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:13:06,098 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:13:06,871 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:13:06,871 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:13:37,545 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:13:38,303 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:13:38,303 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:14:47,721 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:14:48,449 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:14:48,450 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:15:01,170 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:15:01,956 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:15:01,956 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:17:09,675 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:17:10,468 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:17:10,469 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:17:41,724 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:17:42,520 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:17:42,521 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:18:19,684 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 10:18:20,818 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 10:18:20,818 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+DEBUG 2025-04-11 12:14:06,390 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 12:14:07,558 client Response status: 200
+INFO 2025-04-11 12:14:07,559 client Successfully refreshed access token
+INFO 2025-04-11 12:14:12,976 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 12:14:14,009 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 12:14:14,009 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+DEBUG 2025-04-11 15:14:39,025 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 15:14:51,740 client Response status: 200
+INFO 2025-04-11 15:14:51,741 client Successfully refreshed access token
+INFO 2025-04-11 15:15:00,141 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/f25ce4c1-ed7f-4bed-9662-392df451ce1f
+INFO 2025-04-11 15:15:01,007 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 15:15:01,008 reports Successfully checked report status for report f25ce4c1-ed7f-4bed-9662-392df451ce1f
+DEBUG 2025-04-11 16:08:04,790 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 16:08:05,903 client Response status: 200
+INFO 2025-04-11 16:08:05,903 client Successfully refreshed access token
+INFO 2025-04-11 16:08:38,264 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 16:08:38,265 reports With headers: {'Authorization': 'Bearer Atza|IwEBIFz9ZitELRoZctKllk4kN3SWRYBTcmZ9bTcnzYzyNgmPJt-SCLj-B6NEvrb5v2tsw5DaxwO9jN8M6pPMRBkGjo90YqjeNHYyxvh4Zu2JU4nIDIFnU_sSmrPkKw9oNlSBsYlFuGQQ9hDTSPu8NML4S2GjyOCbPfEoSOllGajrxoi8FwwDcoDQCzUlE2uZc5Rb-sG9BBPlUBbGQBMP38IKTOyCVBGJBI7o-khWjzK_eoEAAswYkkMq-rJVbTX1Ss3wXFVQJzo-b8udq7m2GUGT3KUyEqvIrLeNy1Lfnb2AoxVVtbHq_M7HTbclzFex6WvWMRmFpF_0aHi3xHy6EVss0ebkEX0jxcpAb1c5bje7ZyXqBF1bYky0h_Ecwycff4P7XJ0xiPQNUhW_T3qVYxXQsI3NiYdpcQwZLsPRleU3RRWQ-KkN1SW4KihjHQ2azJa-TvACNqBVkctPPoB79A5sqiN732VAXX8BXCUGGjbsyzM3C3w7SeJPkAhrvuvQakdfk-IOzT5cnWFH3vEQaIAnxm66Pu_NCXKrJev3KT7ozBywwg', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Amazon-Advertising-API-Scope': '2210316621244527', 'Content-Type': 'application/json'}
+INFO 2025-04-11 16:08:38,265 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-06", "endDate": "2025-02-05", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignName", "campaignId", "impressions", "clicks", "cost", "sales14d", "purchases14d"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+INFO 2025-04-11 16:08:39,081 reports Report request response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 16:08:39,083 reports Successfully requested report for profile 2210316621244527
+INFO 2025-04-11 16:09:02,713 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/24df0355-1844-4e3e-86bd-bca84963d3bd
+INFO 2025-04-11 16:09:03,556 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignName","campaignId","impressions","clicks","cost","sales14d","purchases14d"],"filters":null,"format":"CSV","groupBy":["campaign"],
+INFO 2025-04-11 16:09:03,557 reports Successfully checked report status for report 24df0355-1844-4e3e-86bd-bca84963d3bd
+INFO 2025-04-11 16:17:44,523 reports Making request to: https://advertising-api-eu.amazon.com/reporting/reports
+INFO 2025-04-11 16:17:44,523 reports With headers: {'Authorization': 'Bearer Atza|IwEBIFz9ZitELRoZctKllk4kN3SWRYBTcmZ9bTcnzYzyNgmPJt-SCLj-B6NEvrb5v2tsw5DaxwO9jN8M6pPMRBkGjo90YqjeNHYyxvh4Zu2JU4nIDIFnU_sSmrPkKw9oNlSBsYlFuGQQ9hDTSPu8NML4S2GjyOCbPfEoSOllGajrxoi8FwwDcoDQCzUlE2uZc5Rb-sG9BBPlUBbGQBMP38IKTOyCVBGJBI7o-khWjzK_eoEAAswYkkMq-rJVbTX1Ss3wXFVQJzo-b8udq7m2GUGT3KUyEqvIrLeNy1Lfnb2AoxVVtbHq_M7HTbclzFex6WvWMRmFpF_0aHi3xHy6EVss0ebkEX0jxcpAb1c5bje7ZyXqBF1bYky0h_Ecwycff4P7XJ0xiPQNUhW_T3qVYxXQsI3NiYdpcQwZLsPRleU3RRWQ-KkN1SW4KihjHQ2azJa-TvACNqBVkctPPoB79A5sqiN732VAXX8BXCUGGjbsyzM3C3w7SeJPkAhrvuvQakdfk-IOzT5cnWFH3vEQaIAnxm66Pu_NCXKrJev3KT7ozBywwg', 'Amazon-Advertising-API-ClientId': 'amzn1.application-oa2-client.64825a3ddf7b4ea3bd5508830526f3e5', 'Amazon-Advertising-API-Scope': '2210316621244527', 'Content-Type': 'application/json'}
+INFO 2025-04-11 16:17:44,523 reports With payload: {"name": "Campaign Performance Report", "startDate": "2025-01-06", "endDate": "2025-02-05", "configuration": {"adProduct": "SPONSORED_PRODUCTS", "groupBy": ["campaign"], "columns": ["campaignId", "campaignName", "impressions", "clicks", "cost", "costPerClick", "roasClicks14d", "acosClicks14d", "purchases14d", "clickThroughRate", "campaignBudgetAmount", "date"], "reportTypeId": "spCampaigns", "timeUnit": "DAILY", "format": "CSV"}}
+INFO 2025-04-11 16:17:45,766 reports Report request response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignId","campaignName","impressions","clicks","cost","costPerClick","roasClicks14d","acosClicks14d","purchases14d","clickThroughRate"
+INFO 2025-04-11 16:17:45,766 reports Successfully requested report for profile 2210316621244527
+INFO 2025-04-11 16:18:07,397 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 16:18:08,137 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignId","campaignName","impressions","clicks","cost","costPerClick","roasClicks14d","acosClicks14d","purchases14d","clickThroughRate"
+INFO 2025-04-11 16:18:08,137 reports Successfully checked report status for report 246391cb-b199-4a28-b47c-3443b332c3da
+DEBUG 2025-04-11 17:08:47,050 client Making POST request to https://api.amazon.com/auth/o2/token
+DEBUG 2025-04-11 17:08:48,232 client Response status: 200
+INFO 2025-04-11 17:08:48,233 client Successfully refreshed access token
+INFO 2025-04-11 17:08:53,798 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:08:54,558 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignId","campaignName","impressions","clicks","cost","costPerClick","roasClicks14d","acosClicks14d","purchases14d","clickThroughRate"
+INFO 2025-04-11 17:08:54,558 reports Successfully checked report status for report 246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:08:54,558 reports Report 246391cb-b199-4a28-b47c-3443b332c3da is complete. Downloading and saving to database...
+INFO 2025-04-11 17:08:54,559 reports Getting report details from: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:08:55,200 reports Downloading report from: https://offline-report-storage-eu-west-1-prod.s3.eu-west-1.amazonaws.com/246391cb-b199-4a28-b47c-3443b332c3da-1744388275211/report-246391cb-b199-4a28-b47c-3443b332c3da-1744388275211.csv?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEgaCWV1LXdlc3QtMSJHMEUCICYoG8yePcODYTpQcDDNVwwmccrcArlTw3Px1TLmTt23AiEA8QImJW5npo4Q3fl5WL86yA%2FwuE0v7mV6WC72O2BXmlYq6gUIwf%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARACGgwxMjgxMTczMzA1MTQiDFx%2FBFX7wwoI7fjlOSq%2BBUDrGSr7bvPTLUG28NdY1G%2Bp%2B%2FV8x70KNSx96ltEHEYK5bT31eo4BlIHrY0gqEp6BitJLJz%2BmZASrb0lOCHgOkE4ugzXwBH1mdfpumd7xrBq8DjVrURRkHFcl0W55EO90FMaUB78wGLRopA1swfDwRWujDpd2zk9YXpJzZ1khBey%2FabmiF53%2Fr70CIdMKHNXM7wss95TKvJGUgTL%2Bb1iGIh5Ac9norUeWtPndGmApdv%2FoNjjdKC3Li4b0AG76ZcN251i2Tt3HSYkmmkC1VxyaPG%2ByntKS081sCOhwddl9osxxylFR07FO9xP3YlxtN90FYJ%2FX6V8JfFHXxOTfDvJLReJnTe3X5ws84aA%2FTuZqbCnjQsyfBqIOUV8pEHz8EtmJVfs99T7K5%2Bne9EmRCTJ5Bo%2BNpvxxR5n2D4mNHNEMYEPcyf71uuBZXxKw6zxnYTGPx0XbHowlXa8sLA%2Fxz%2BpAjjut87pmd0z9bp2XYsKp4g%2Bo2OaG0woNeywIo9X3MIjtTByxnqcjfCeMklT08TeXLkDRbJOjMWL1s7Nr0ikrHwCDqX2XqXUXGm7vg2BE8nSIVaFsPk5%2Bt6nlJq%2FbXHCZeYd9t3RXUwsWgTaN3zbGlhig2jiEWWgryUIc9TA%2FnqOZRTy608%2BloGcJMu15tdkS%2BK89soGZ4nr0xmX%2FcN0gBKzQr69WWRKPwS3T%2FNrLUuzKrP8NYz%2BpT%2BZ7dn0xNMeDV5AbtVzX6cjsjOxm2l7Za530GttfD9gn7GEF9FJ8tU%2FbtSCx%2B9PzZ%2FS%2Bl1GHvZEG%2BqNH5Yd8eV5d0fhb4PYebu5WgA%2BF9TWZO9uj1LNQyKTjqFOMuYNKS%2BXAZZQFZF51EZYoKOmrVVf2%2BgV32%2FJUGJgWZuw6bfLH7GzIWHStL6oyfTWBGGuCxYisbc%2FYm2oL50wboWcZ%2B9%2FSnOR2VMxmDDX9eS%2FBjqpAcWYHBoDpOKYgyIQWtEtMl0TXpZHRpiC6UZxwp7sqeH8Ohtf42%2BJxQmXyD0IoNhNIE845SHPLwwwfA%2BVH0jTxLqhGFFb90TTvIKrnlkN7T1t7RSTiRi3LxXL5P13LAxhD935ilKOaN39zakPQAxzFBFATXdTlaqEscV72neIeivjs366JFfos%2BpbYMAoSV1%2B2UPL30GELA9mHMwd6XcVUlK6HlzE50yOryo%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250411T170855Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIAR3VDDKJJP6LFPOKS%2F20250411%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=0dd9a7f3b054e6b196eddfd564cf8b30b05b8dd296cdb25811aa504ab0e57724
+ERROR 2025-04-11 17:08:56,885 reports Failed to download report: 400 <?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>InvalidArgument</Code><Message>Only one auth mechanism allowed; only the X-Amz-Algorithm query parameter, Signature query string parameter or the Au
+INFO 2025-04-11 17:13:18,749 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:13:19,443 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignId","campaignName","impressions","clicks","cost","costPerClick","roasClicks14d","acosClicks14d","purchases14d","clickThroughRate"
+INFO 2025-04-11 17:13:19,444 reports Successfully checked report status for report 246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:13:19,444 reports Report 246391cb-b199-4a28-b47c-3443b332c3da is complete. Downloading and saving to database...
+INFO 2025-04-11 17:13:19,444 reports Getting report details from: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:13:20,033 reports Downloading report from: https://offline-report-storage-eu-west-1-prod.s3.eu-west-1.amazonaws.com/246391cb-b199-4a28-b47c-3443b332c3da-1744388275211/report-246391cb-b199-4a28-b47c-3443b332c3da-1744388275211.csv?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCWV1LXdlc3QtMSJIMEYCIQCCzD522TRdkpYNdWGs4mhfHIzIBx7aKKJm57%2FDdAfgcgIhANn7t9sv2bUVvIthV%2BkiHcmcHIiE9oMfZbkSC0lDhCdwKuoFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMMTI4MTE3MzMwNTE0IgwadqYJaBmKQAGWiBAqvgWmU8KC2bX8M3VqYADsK8ORR69YR7z1jQGVhzNGX6Mfe%2BY79vQ3g2iKNs0odGl5QrXG1h9V1hxPRzrV9ES9iRJcB2Qf18psdlZgYL1xJFOiCfa9xUJhEOvY3camd4v3CHZ8dXDASWBnd1Eez2zYmQU%2BrhPR2kyw1y4StO%2BSRVwWwautHVtT02nk5haAZZkZ7uMYfFQTQWH%2F9zWr5D9T7JHADbVNso2cEpA2lAYwS1IOJijU25biyPAQe9A57pcvVpcN526IRCUOmac51tuSA4AsbVmX8a38V%2FODJM4VbwlFiTWYzatCNmboelXPvrPMrBDPar6fBwQrSPspTbuLleYBMdm4U%2B0Huepevyv37%2BJZCwEtHAkC%2Fdo%2BV3CY0R7sUV72uihTuI8q7%2F4nqwRh955BJktlbRDwP4B85PF%2FxEh9nugCE6QxHtZQxI1V%2FHFVHepTt2fDscRebC2bZSW7zhdrcrm8KNfTqrRtcXzZmrF3pqpax4VUQfpUCSzh60YU7k3T%2B8pplhIRJ16lu%2BHbRme%2BPTfqa87wKu%2FYvfuYrgVuuhy0P5QeTqnv4PyYbcwn1HH%2FZD4QKjZJawnibZ9zumC8uynjT%2FmXiJLshn20%2Bq6d7ze%2FTgU01v7QqhHrPQsDVY%2B%2FqElyrFHsI%2BReibk83OEgrUmxMwQTWqu1lOApO7GxQataSZJTq2w4RmeSjRPWtS3zgVz4w7lLoYE8Lil4TsBiBMMyqVRMu5Dw5DbiW2BRjl%2F%2Fp1qGrcHUaZTdbCG5wlwg0mnc%2FQwLQrBtBOwVwnPYQrxSyz8Wap3TpCAm8Pw0Ey3bVQ1tgHYSiLT2iwatBClA60iBPA4rxtiZlW55P2tFtIpwMv5ltqVP98vFJPpLFucDSVtGqg81%2B5DHLIfA%2B9SI8pfXkptX8MYeLEyaIPTEMkFKXhpdhRQEOKAB7eQw8Y%2FlvwY6qAFj1SEVv98oAW%2FsqxO2qxRbfgt7SmhCnwJPRPZzsNMlRWaqtV%2FR%2FR7siWGhRLkJ%2FCN2FCftAcEJ1nyoNb%2BhpKVvSTeO4j7m4%2B1t5uk0xpkG5ZT16KWxKnff21Jga7TVyH6Sk5L8cwWC9bB%2BvJW4nmCPfrVB1W4gXROyIf6wJ5PT1lfRzMcGP2ooYgNgKDPbH2xCcOWmnM4Wrs6fw%2F9N28nbqBdD3qtVbjs%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250411T171319Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIAR3VDDKJJOJG3YH66%2F20250411%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=73a5f1517ca2b90c2bcd1415c260578f9a2e1b79e0f74a676c03712fd59aeab0
+ERROR 2025-04-11 17:13:20,725 reports Unsupported content type: binary/octet-stream
+INFO 2025-04-11 17:14:16,358 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:14:16,358 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:14:16,389 query_system No campaign data found in database
+WARNING 2025-04-11 17:14:16,389 query_system No campaign data available for filtering
+INFO 2025-04-11 17:14:18,866 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:14:18,866 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:14:18,868 query_system No campaign data found in database
+WARNING 2025-04-11 17:14:18,868 query_system No campaign data available for filtering
+INFO 2025-04-11 17:14:20,524 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:14:20,525 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:14:20,527 query_system No campaign data found in database
+WARNING 2025-04-11 17:14:20,528 query_system No campaign data available for filtering
+INFO 2025-04-11 17:14:22,014 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:14:22,014 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:14:22,016 query_system No campaign data found in database
+WARNING 2025-04-11 17:14:22,016 query_system No campaign data available for filtering
+INFO 2025-04-11 17:15:36,223 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:15:36,223 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:15:36,225 query_system No campaign data found in database
+WARNING 2025-04-11 17:15:36,225 query_system No campaign data available for filtering
+INFO 2025-04-11 17:28:15,621 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:28:16,310 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignId","campaignName","impressions","clicks","cost","costPerClick","roasClicks14d","acosClicks14d","purchases14d","clickThroughRate"
+INFO 2025-04-11 17:28:16,310 reports Successfully checked report status for report 246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:30:00,027 reports Checking report status at: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:30:00,966 reports Report status response: 200 {"configuration":{"adProduct":"SPONSORED_PRODUCTS","columns":["campaignId","campaignName","impressions","clicks","cost","costPerClick","roasClicks14d","acosClicks14d","purchases14d","clickThroughRate"
+INFO 2025-04-11 17:30:00,969 reports Successfully checked report status for report 246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:30:00,970 reports Report 246391cb-b199-4a28-b47c-3443b332c3da is complete. Downloading and saving to database...
+INFO 2025-04-11 17:30:00,974 reports Getting report details from: https://advertising-api-eu.amazon.com/reporting/reports/246391cb-b199-4a28-b47c-3443b332c3da
+INFO 2025-04-11 17:30:01,670 reports Downloading report from: https://offline-report-storage-eu-west-1-prod.s3.eu-west-1.amazonaws.com/246391cb-b199-4a28-b47c-3443b332c3da-1744388275211/report-246391cb-b199-4a28-b47c-3443b332c3da-1744388275211.csv?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEkaCWV1LXdlc3QtMSJIMEYCIQDf%2FUpm5ZgCUVsNpWxA8aLYH%2FzlwUapaElSQpzgRP%2Bb0wIhAK00BWMnuSB6DlKF3GvKc5zYQgqy6bCXdQNqJQj4Z%2BcfKuoFCML%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAhoMMTI4MTE3MzMwNTE0IgyMlxG5DXhvR3saJK4qvgXpMM6IAxaAgGII0kji5HqqWsWMk69QsihV41i8TLzhSQZvxNJtuFq60W8MczbK1IZtGOVFGmEPBKtV%2BQslAoZmmD8C%2FvdJSgth3X62uQ1MoGFREOA3UrPMlMroVs2Gsuf%2F%2FHz%2B8R0eoIVqS%2Byxh1UbP68xB%2FW7AeNJS6nNMMRhHAneeLHbLtJEsxlUYAlyDhi0g4spjclJwlYqo%2BUUiNJ2ipkfaCGFiaqAKxo22F23vw0F8exehOASSXMIOQWWu%2Bp4yMYjgV8SHXZ6GYKTvSo3h4BupKy0cajT8f4CerVmg%2F4sqxSry8mAIrSbjHgggofapvlIsWzykHyr4tk0YG7V9yxPncAsEYmlxtNqgCpcYqmS3LcOcTU4TDU8glgmctlctfvUs2R0BAqsCeQehfUP6uP1ybfExSzfqs3oPWLDtuxmkz7tARpxzW%2FI0uEOnyk285uma7hwEbL7ghql%2F012QgfnksYVjPazpnkk8qI49SJBGAooIYe7SiM5xvo%2FveMYkVz8l45gS4tkHXSt1wy0Jkj%2FNcv2RGXmbtdYqdxAtmNnzbjhyxcKuRfY27urkVKnFnFKnlSZhS58QJFWQ24p0qHURylVick7i2uSWVMF3IJt4AEW9HSF9DdBnhcVfqrwbyYj9JHqosKl3ScjXDi8ml2Hy69STRMCNXeejba5njSjD%2BW8RYXKkqUM4jF3qvBgjordSmj5waudzDMj5dOSQbd6ywD3Mq50zeHC8JdhOAFEtny5eut9g5%2B3YntyzdfKSXsN2qS88hKhhWHNB2OcILo1HJyzCSbonRGCLEXvKt2YcfUiucob5JXU1ytSpxUzxDUEBjJuMc0ARuQXrAz2kFjja4cVz8zfyJ2oIPGIiP2aRBWydxnRu%2BowXa9BzpAJRKP2WlkDL6fZQ0Nfr%2FuOAinwNNIRNVLHPfBNOMEwpJDlvwY6qAE4NyG58hSiRbxbZcC2z%2Fhm8GjkiIi1VIr5rEMd4m4RSlPCh1erEYO2GrS3TKbaSDWdrcAsxNg0rOgOalSJKqQz6%2FpbfYyTVQq%2BhY6MxK%2FPUxscVQa%2BdWBfEdJRq9MOi%2BHMqqDZky0gIr%2BuiT2Q76aZEXZ0ZVJSBkGUgSBbiFc9K%2BL4pPctw1ZyaFtI2BgWd5ngNCTnRpSMObngW6tZ%2FEvJwPxXqU%2Fvs%2FQ%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250411T173001Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Credential=ASIAR3VDDKJJBFTISYZ5%2F20250411%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=1829401017e427c5eba8f84827fbe1d5d26693ee9a720cc3e74617f88108ad0c
+INFO 2025-04-11 17:30:02,507 reports Report content type: binary/octet-stream
+INFO 2025-04-11 17:30:02,515 reports Detected CSV format from binary content
+INFO 2025-04-11 17:30:02,632 reports Report processed: 0 campaigns created, 0 campaigns updated
+INFO 2025-04-11 17:31:14,408 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:31:14,408 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:31:14,410 query_system No campaign data found in database
+WARNING 2025-04-11 17:31:14,410 query_system No campaign data available for filtering
+INFO 2025-04-11 17:31:16,045 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:31:16,046 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:31:16,048 query_system No campaign data found in database
+WARNING 2025-04-11 17:31:16,048 query_system No campaign data available for filtering
+INFO 2025-04-11 17:41:24,210 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:41:24,210 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:41:24,248 query_system Successfully loaded campaign data: 1 records
+DEBUG 2025-04-11 17:41:24,248 query_system Filter request data: {'main_operator': 'AND', 'conditions': [{'operator': 'AND', 'filters': {'campaign_name': 'Summer Sale'}}, {'operator': 'OR', 'filters': {'clicks': {'min': 100, 'max': 500}, 'roas': {'min': 2.5}}}]}
+DEBUG 2025-04-11 17:41:24,249 query_system Main operator: AND, Number of conditions: 2
+INFO 2025-04-11 17:41:24,249 query_system Generated pandas query: ((campaign_name == 'Summer Sale')) & ((100 <= clicks <= 500) | (roas >= 2.5))
+ERROR 2025-04-11 17:41:24,260 query_system Error executing pandas query: name 'campaign_name' is not defined
+INFO 2025-04-11 17:49:57,207 query_system Received filter_campaigns request
+DEBUG 2025-04-11 17:49:57,207 query_system Fetching campaign data for user_id: 6
+INFO 2025-04-11 17:49:57,218 query_system Successfully loaded campaign data: 1 records
+DEBUG 2025-04-11 17:49:57,219 query_system Filter request data: {'main_operator': 'AND', 'conditions': [{'operator': 'AND', 'filters': {'campaign_name': 'Summer Sale'}}, {'operator': 'OR', 'filters': {'clicks': {'min': 100, 'max': 500}, 'roas': {'min': 2.5}}}]}
+DEBUG 2025-04-11 17:49:57,219 query_system Main operator: AND, Number of conditions: 2
+INFO 2025-04-11 17:49:57,219 query_system Generated pandas query: ((product == 'Summer Sale')) & ((100 <= clicks <= 500) | (roas >= 2.5))
+INFO 2025-04-11 17:49:57,287 query_system Filter applied successfully. Results: 0 records
