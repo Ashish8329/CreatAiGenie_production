@@ -14,9 +14,11 @@ from pathlib import Path
 from datetime import timedelta
 #import firebase_admin as fbs
 import os
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(os.path.join(BASE_DIR, ".env"))
 
 
 # Quick-start development settings - unsuitable for production
@@ -46,7 +48,8 @@ INSTALLED_APPS = [
     'corsheaders',                                                                     
     'djoser',
     'authapi',
-    'based',       
+    'based',
+    "payment"       
 ]
 
 MIDDLEWARE = [
@@ -307,3 +310,7 @@ LOGGING = {
         },
     },
 }
+
+# razorpay config
+RAZORPAY_KEY_ID = os.getenv('RAZORPAY_KEY_ID')
+RAZORPAY_KEY_SECRET = os.getenv('RAZORPAY_KEY_SECRET')
