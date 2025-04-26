@@ -28,7 +28,7 @@ urlpatterns = [
     path('auth/', include('djoser.urls')),
     path('auth/', include('djoser.urls.jwt')),
     path('auth/', include('djoser.urls.authtoken')),
-    path('payments/', include('payment.urls')),
+    path('billing/', include('payment.urls')),
     re_path('^media/(?P<path>.*)$', serve, {'document_root': MEDIA_ROOT}), 
     re_path('^static/(?P<path>.*)$', serve, {'document_root': STATIC_ROOT}), 
 ]

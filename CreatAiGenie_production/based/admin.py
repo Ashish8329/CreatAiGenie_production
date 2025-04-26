@@ -151,7 +151,7 @@ admin.site.register(UserAuthentication, UserAuthenticationAdmin)
 class UserProfileAdmin(admin.ModelAdmin):
     list_display = ('user', 'location', 'birth_date')
     list_filter = ('location',)
-    search_fields = ('user__username', 'bio')
+    search_fields = ('user', 'bio')
 
 admin.site.register(UserProfile, UserProfileAdmin)
 

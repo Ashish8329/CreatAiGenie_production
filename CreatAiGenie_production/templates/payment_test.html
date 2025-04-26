@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Razorpay Payment Test</title>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+</head>
+<body>
+    <h2>Test Razorpay Checkout</h2>
+    <button id="pay-button">Pay ₹100000000</button>
+
+    <script>
+        document.getElementById("pay-button").onclick = function () {
+            fetch("http://127.0.0.1:8000/billing/checkout", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    // "Authorization": "Bearer <your_auth_token_if_required>" // Optional
+                },
+                body: JSON.stringify({ amount: 99000 })  // Amount in INR
+            })
+            .then(res => res.json())
+
+            .then(data => {
+                const order = data.data;
+                
+                const options = {
+                    "key": "{{ RAZORPAY_KEY_ID }}", // you can hardcode or pass from backend
+                    "amount": order.amount, 
+                    "currency": "INR",
+                    "name": "MY company",
+                    "description": "Test Transaction",
+                    "order_id": order.id,
+                    "handler": function (response) {
+                        // Call verify API
+                        fetch("http://127.0.0.1:8000/billing/status", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                            body: JSON.stringify({
+                                payment_id: response.razorpay_payment_id,
+                                order_id: response.razorpay_order_id,
+                                signature: response.razorpay_signature
+                            })
+                        })
+                        .then(res => res.json())
+                        .then(data => {
+                            alert("Payment successful and verified!");
+                            console.log(data);
+                        })
+                        .catch(err => {
+                            alert("Payment success but verification failed.");
+                            console.error(err);
+                        });
+                    },
+                    "theme": {
+                        "color": "#3399cc"
+                    }
+                };
+
+                const rzp1 = new Razorpay(options);
+                rzp1.open();
+            })
+            .catch(err => {
+                alert("Error while creating Razorpay order.");
+                console.error(err);
+            });
+        }
+    </script>
+</body>
+</html>
